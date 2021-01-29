@@ -1,0 +1,29 @@
+{
+  "name": "processador-arquivos-texto",
+  "version": "1.0.0",
+  "description": "Programa para processar os arquivos texto e enviar para fila de mensagem.",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "node src/loader.js"
+  },
+  "keywords": [
+    "batch",
+    "processador",
+    "arquivos",
+    "texto",
+    "fila",
+    "mensagens"
+  ],
+  "author": {
+    "name": "Eladio Júnior",
+    "email": "eladiojunior@gmail.com",
+    "url": "https://github.com/eladiojunior"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "dotenv": "^8.2.0",
+    "event-stream": "^4.0.1",
+    "fs": "0.0.1-security"
+  }
+}

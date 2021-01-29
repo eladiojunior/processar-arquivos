@@ -1,0 +1,32 @@
+{
+  "name": "processador-conteudo-filamensageria",
+  "version": "1.0.0",
+  "description": "Programa que lê a fila de mensagens com o conteúdo dos arquivos e processa gravar em banco de dados (NoSQL).",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "node src/loader.js",
+    "production": "pm2 start src/loader.js --name processar-conteudo-filamensageria",
+    "test": "node test/testHash.js"
+  },
+  "keywords": [
+    "batch",
+    "processador",
+    "arquivos",
+    "texto",
+    "fila",
+    "mensagens"
+  ],
+  "author": {
+    "name": "Eladio Júnior",
+    "email": "eladiojunior@gmail.com",
+    "url": "https://github.com/eladiojunior"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.11.13",
+    "pm2": "^4.5.1"
+  }
+}

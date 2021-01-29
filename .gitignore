@@ -1,0 +1,3 @@
+# Project exclude paths
+/processador-arquivos-texto/node_modules/
+/processador-conteudo-filamensageria/node_modules/
